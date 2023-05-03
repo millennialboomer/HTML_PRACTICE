@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Goal Tracker</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>Goal Tracker</h1>
+    </header>
+    <main>
+      <form>
+        <label for="goalName">Goal Name</label>
+        <input type="text" id="goalName" name="goalName" required>
+        <label for="goalDescription">Goal Description</label>
+        <textarea id="goalDescription" name="goalDescription" rows="4" required></textarea>
+        <label for="goalDeadline">Goal Deadline</label>
+        <input type="date" id="goalDeadline" name="goalDeadline" required>
+        <button type="submit">Add Goal</button>
+      </form>
+      <ul id="goalList">
+        <!-- This is where the goals will be displayed -->
+      </ul>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

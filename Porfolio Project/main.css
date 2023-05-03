@@ -1,0 +1,27 @@
+.portrait {
+    height: 20em;
+}
+
+header {
+    background-color: cornflowerblue;
+    text-align: center;
+}
+
+.about-me {
+    font-size: 25px;
+    opacity: 0.5;
+}
+
+.development-projects {
+    font-weight: bold;
+}
+
+.heading {
+    background-color: azure;
+}
+
+body {
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-image: url("https://content.codecademy.com/courses/learn-css-selectors-visual-rules/hypnotize_bg.png");
+}

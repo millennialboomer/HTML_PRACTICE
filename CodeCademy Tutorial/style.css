@@ -1,0 +1,39 @@
+i {
+    font-size: 5em;
+}
+
+body {
+    font-family: 'Gentium Plus', serif;
+    color: white;
+    background-color: lightcyan;
+    background-image: url('https://newevolutiondesigns.com/images/freebies/nature-hd-background-2.jpg');
+}
+
+h1 {
+    font-size: 2.5rem;
+}
+
+p {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+main {
+    text-align: center;
+}
+
+a {
+    color: white;
+}
+
+nav {
+    /* background-color: black;
+    opacity: 0.5; */
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+
+#right-arrow {
+    color: black;
+    opacity: 0.5;
+}

@@ -1,0 +1,87 @@
+body {
+  background: white;
+  color: darkred;
+  padding: 25px;
+  font-family: sans-serif;
+}
+
+nav ul{
+  list-style: none;
+}
+a[href]{
+  background-color: green;
+  color: black;
+}
+
+.h2section {
+  color: teal;
+  font-size: 20px;
+  font-style: monospace;
+  opacity: .5;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+#h1heading {
+  font-family: cursive;
+  font-size: 50px;
+  text-align: center;
+}
+
+#myButton:hover {
+  font-family: cursive;
+  opacity: .25;
+}
+
+a[href*="index"]:hover {
+  background-color: white;
+}
+
+span.chaining-selectors {
+  color: turquoise;
+}
+
+.unordered-list li {
+  font-size: 30px;
+  font-family: cursive;
+  list-style-type: upper-roman;
+}
+
+#contact::after {
+  content: " <--CLICK HERE!";
+  color: red;
+  background-color: white;
+}
+#contact::before {
+  content: "CLICK HERE! --> ";
+  color: red;
+  background-color: white;
+}
+#font-bold {
+  font-weight: bold;
+}
+
+.image {
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-2/soccer.jpeg");
+    background-size: cover;
+    background-position: center;
+    height: 1000px;
+}
+
+#caption {
+    display: block;
+    font-family: 'Playfair Display', serif;
+    font-size: 14px;
+    font-style: italic;
+    line-height: 14px;
+    margin-left: 20px;
+    padding: 10px;
+    position: relative;
+    top: 80%;
+    width: 60%;
+    background-color: white;
+    color: black;
+    opacity: 0.75;
+  }
